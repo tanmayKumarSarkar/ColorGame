@@ -1,0 +1,259 @@
+#top {
+	
+	}
+#cg {
+	font-family:"Comic Sans MS", cursive;
+	size:12px;
+	line-height:6px;
+	letter-spacing:1px;
+	word-spacing: 1px;
+	}
+#c ,#r  ,#e {
+	color:rgba(255,0,0,1);
+	text-shadow: 2px 2px #666666;
+	}
+#o1, #g {
+	color:rgba(255,255,0,1);
+	text-shadow: 2px 2px #666666;	
+	}
+#o2, #m {
+	color:rgba(0,255,0,1);
+	text-shadow: 2px 2px #666666;
+	}
+#l, #a {
+	color:rgba(0,102,204,1);
+	text-shadow: 2px 2px #666666;
+	}
+#ig {
+	font-family:"Comic Sans MS", cursive;
+	color:rgba(189,87,223,1);
+	line-height:6px;
+	}
+#imgArrow {
+	position: absolute;
+	height: 21px;
+	width: 34px;
+	top: 42px;
+	
+	}		
+#insg {
+	font-family:"Comic Sans MS", cursive;
+	color:rgba(209,122,44,1);	
+	}
+#ig2 {
+	font-family:"Comic Sans MS", cursive;
+	letter-spacing:0px;
+	word-spacing:2px;
+	color:rgba(102,102,102,1);
+	line-height:6px;
+	
+	}
+						
+#middle {
+	background-color:#FFF;
+	alignment-adjust:central;
+	text-align:center;
+	width:404px;
+	height:404px;
+
+}
+#red {
+	background-color: rgba(255,0,0,1);
+	font-family:"Comic Sans MS", cursive;
+	}
+#green {
+	background-color:rgba(0,255,0,1);
+	font-family:"Comic Sans MS", cursive;
+	}
+#blue {
+	background-color:rgba(0,102,204,1);
+	font-family:"Comic Sans MS", cursive;
+	}
+#yellow {
+	background-color:rgba(255,255,0,1);
+	font-family:"Comic Sans MS", cursive;
+	}	
+#colorBtns {
+	margin-top:6px;}	
+	
+/* buttons------------------------------>>>>*/
+
+/* Red -----*/
+#round-buttonR {
+	width:70%;
+}
+#round-button-circleR {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:4px solid #FDD0CE;
+    overflow:hidden;
+    
+    background: #F9624D; 
+	font-size: 14px;
+    box-shadow: 0 0 2px gray;
+}
+#round-button-circleR:hover {
+	background:#FF0000;
+}
+#round-buttonR a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* Green----*/
+
+#round-buttonG {
+	width:70%;
+}
+#round-button-circleG {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:4px solid #C8FCA9;
+    overflow:hidden;
+    
+    background: #93E35E; 
+	font-size: 14px;
+    box-shadow: 0 0 2px gray;
+}
+#round-button-circleG:hover {
+	background:#51D13A;
+}
+#round-buttonG a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* Blue ---*/
+
+#round-buttonB {
+	width:70%;
+}
+#round-button-circleB {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:4px solid #B5E6F9;
+    overflow:hidden;
+    
+    background: rgba(130,216,234,1); 
+	font-size: 14px;
+    box-shadow: 0 0 2px gray;
+}
+#round-button-circleB:hover {
+	background:#4BA0D3;
+}
+#round-buttonB a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* Yellow -----*/
+
+#round-buttonY {
+	width:70%;
+}
+#round-button-circleY {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:4px solid #FBF999;
+    overflow:hidden;
+    
+    background: #DBDE4B ; 
+	font-size: 14px;
+    box-shadow: 0 0 2px gray;
+}
+#round-button-circleY:hover {
+	background: #E9E445;
+}
+#round-buttonY a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* Start button ---#3e9ad2*/
+
+#strt {
+	width:100px;
+	height:35px;
+	font-size:15px;
+	background:#D23620;
+	-webkit-box-shadow:0 0 4px #000;/*safari and Chrome*/
+	-moz-box-shadow:0 0 4px #000; /*Mozilla*/
+	-o-box-shadow:0 0 4px #000; /*Opera*/
+	-ms-box-shadow:0 0 4px #000; /*Ms IE*/
+	box-shadow:0 0 4px #000; /*W3C*/
+	-webkit-border-radius:15px;/*safari and Chrome*/
+	-moz-border-radius:15px; /*Mozilla*/
+	-o-box-border-radius:15px; /*Opera*/
+	-ms-box-border-radius:15px; /*Ms IE*/
+	border-radius:15px; /*W3C*/
+	background-image:-webkit-linear-gradient(top,#ffffff 0%,#D23620 100%);
+	background-image:-moz-linear-gradient(top,#ffffff 0%,#D23620 100%);
+	background-image:-o-linear-gradient(top,#ffffff 0%,#D23620 100%);
+	background-image:-ms-linear-gradient(top,#ffffff 0%,#D23620 100%);
+	background-image:linear-gradient(top,#ffffff 0%,#D23620 100%);
+	font-family:"Comic Sans MS", cursive;
+	}
+	
+
+/* Buttons ---------------------------------------------->>>*/	
+	
+#bottom {
+	
+	}			
+

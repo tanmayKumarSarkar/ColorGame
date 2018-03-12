@@ -1,0 +1,13 @@
+{
+  "name": "Color Game",
+  "description": "Color Game",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Tanmay Kumar Sarkar"
+  },
+  "default_locale": "en",
+  "fullscreen": "true"
+}
